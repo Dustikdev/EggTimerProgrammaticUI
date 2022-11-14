@@ -7,24 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AD5C106222D34E35001E14A5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD5C106122D34E35001E14A5 /* README.md */; };
+		79DA494D29229E9100A43627 /* EggTimerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA494C29229E9100A43627 /* EggTimerVC.swift */; };
+		79DA494F29229F4D00A43627 /* EggTimerVC_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA494E29229F4D00A43627 /* EggTimerVC_Ext.swift */; };
 		AD5C106622D36212001E14A5 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AD5C106522D36212001E14A5 /* alarm_sound.mp3 */; };
 		ADF037EE22D332A800A69E9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF037ED22D332A800A69E9A /* AppDelegate.swift */; };
 		ADF037F022D332A800A69E9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF037EF22D332A800A69E9A /* SceneDelegate.swift */; };
-		ADF037F222D332A800A69E9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF037F122D332A800A69E9A /* ViewController.swift */; };
-		ADF037F522D332A800A69E9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF037F322D332A800A69E9A /* Main.storyboard */; };
 		ADF037F722D332AD00A69E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF037F622D332AD00A69E9A /* Assets.xcassets */; };
 		ADF037FA22D332AD00A69E9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF037F822D332AD00A69E9A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AD5C106122D34E35001E14A5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		79DA494C29229E9100A43627 /* EggTimerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTimerVC.swift; sourceTree = "<group>"; };
+		79DA494E29229F4D00A43627 /* EggTimerVC_Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTimerVC_Ext.swift; sourceTree = "<group>"; };
 		AD5C106522D36212001E14A5 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
 		ADF037EA22D332A800A69E9A /* EggTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF037ED22D332A800A69E9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADF037EF22D332A800A69E9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ADF037F122D332A800A69E9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ADF037F422D332A800A69E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADF037F622D332AD00A69E9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADF037F922D332AD00A69E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADF037FB22D332AD00A69E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,7 +42,6 @@
 		ADF037E122D332A800A69E9A = {
 			isa = PBXGroup;
 			children = (
-				AD5C106122D34E35001E14A5 /* README.md */,
 				ADF037EC22D332A800A69E9A /* EggTimer */,
 				ADF037EB22D332A800A69E9A /* Products */,
 			);
@@ -61,10 +58,10 @@
 		ADF037EC22D332A800A69E9A /* EggTimer */ = {
 			isa = PBXGroup;
 			children = (
+				79DA494E29229F4D00A43627 /* EggTimerVC_Ext.swift */,
+				79DA494C29229E9100A43627 /* EggTimerVC.swift */,
 				ADF037ED22D332A800A69E9A /* AppDelegate.swift */,
 				ADF037EF22D332A800A69E9A /* SceneDelegate.swift */,
-				ADF037F122D332A800A69E9A /* ViewController.swift */,
-				ADF037F322D332A800A69E9A /* Main.storyboard */,
 				ADF037F622D332AD00A69E9A /* Assets.xcassets */,
 				AD5C106522D36212001E14A5 /* alarm_sound.mp3 */,
 				ADF037F822D332AD00A69E9A /* LaunchScreen.storyboard */,
@@ -100,7 +97,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1410;
 				ORGANIZATIONNAME = "The App Brewery";
 				TargetAttributes = {
 					ADF037E922D332A800A69E9A = {
@@ -134,8 +131,6 @@
 				ADF037FA22D332AD00A69E9A /* LaunchScreen.storyboard in Resources */,
 				AD5C106622D36212001E14A5 /* alarm_sound.mp3 in Resources */,
 				ADF037F722D332AD00A69E9A /* Assets.xcassets in Resources */,
-				AD5C106222D34E35001E14A5 /* README.md in Resources */,
-				ADF037F522D332A800A69E9A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,23 +141,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADF037F222D332A800A69E9A /* ViewController.swift in Sources */,
+				79DA494D29229E9100A43627 /* EggTimerVC.swift in Sources */,
 				ADF037EE22D332A800A69E9A /* AppDelegate.swift in Sources */,
 				ADF037F022D332A800A69E9A /* SceneDelegate.swift in Sources */,
+				79DA494F29229F4D00A43627 /* EggTimerVC_Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ADF037F322D332A800A69E9A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ADF037F422D332A800A69E9A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ADF037F822D332AD00A69E9A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -200,6 +188,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -224,7 +213,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -260,6 +249,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -278,7 +268,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -293,12 +283,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24928479RW;
 				INFOPLIST_FILE = EggTimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.appbrewery.EggTimer;
+				PRODUCT_BUNDLE_IDENTIFIER = app.dustikdev.eggtimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,12 +301,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24928479RW;
 				INFOPLIST_FILE = EggTimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.appbrewery.EggTimer;
+				PRODUCT_BUNDLE_IDENTIFIER = app.dustikdev.eggtimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
